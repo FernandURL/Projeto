@@ -34,9 +34,10 @@ Body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   height: 100px;
-  margin: 100px 100px 100px;
+  margin: 56px auto 0px;
 
   padding: 0px 50px;
 }
@@ -78,18 +79,19 @@ padding: 1px;
 
   position: absolute;
   top: 50%;
-  right: 0;
+  left: 0;
   z-index: 1;
   transform: translateY(-50%);
 
 }
 
-.light #switch button {
-
-  left: 0;
-  
+.light #switch  button {
+  right;: : 0;
+  left: initial;
 
 }
+
+
 
 #switch span {
 display: block;
@@ -169,4 +171,3 @@ fotter {
   text-align: center;
   font-size: 12px;
 }
-
